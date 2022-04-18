@@ -1,3 +1,18 @@
+<h1>Requeriments</h1>
+<pre>
+* composer require laravel/breeze
+* php artisan breeze:install
+* php artisan migrate --seed
+* npm install && npm run dev
+* php artisan make:model Company -m
+* php artisan make:controller Api/CompanyController --api --resource --model=Company 
+* php artisan make:resource CompanyResource 
+* php artisan make:request CompanyRequest
+* php artisan migrate
+* npm install vue@next vue-router@next vue-loader@next (se agrega next para que no use la versión 2 de vue.js)
+* npm run watch
+</pre>
+<br>
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
 <p align="center">
